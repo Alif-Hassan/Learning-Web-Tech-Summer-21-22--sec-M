@@ -8,7 +8,7 @@ if($username==null || $password == null){
 
 echo "null username/password";
 }else {
-if($username == "alif" || $password == "123" ){
+if($username == "Alif" || $password == "123" ){
     $_SESSION['status']= true ;
     setcookie('status','true',time()+3600,'/');
     header('location:home.php');
